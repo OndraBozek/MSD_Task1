@@ -24,11 +24,11 @@ public class Main {
             String result;
 
             if ((i % 5 == 0) && (i % 3 == 0)) {
-                result = "Agile";
+                result = "Testing";
             } else if (i % 3 == 0) {
                 result = "Software";
             } else if (i % 5 == 0) {
-                result = "Testing";
+                result = "Agile";
             } else {
                 result = String.valueOf(i);
             }
